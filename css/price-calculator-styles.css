@@ -1,0 +1,109 @@
+/* FranxVan Price Calculator Styles - Copy this into your CSS */
+
+.price-calculator {
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  background: var(--bg-color-light);
+  border-radius: 1rem;
+  /* box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); */
+}
+
+.calculator-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  width: 100%;
+}
+
+.form-group select {
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background: white;
+  color: black;
+  transition: border-color 0.3s ease;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.form-group select {
+  cursor: pointer;
+}
+
+.form-group select:focus {
+  outline: none;
+  border-color: #f15a29;
+}
+
+.estimation-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.total-price {
+  font-size: 1.5rem !important;
+  color: #f15a29 !important;
+  padding-top: 0.5rem;
+  border-top: 2px solid #ddd;
+}
+
+.price-breakdown {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.disclaimer {
+  font-size: 0.9rem;
+  color: #666;
+  font-style: italic;
+}
+
+.contact-note {
+  text-align: center;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 0.5rem;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .price-calculator {
+    margin: 1rem;
+    padding: 1.5rem;
+  }
+
+  .calculator-form {
+    gap: 1rem;
+  }
+
+  .form-group select,
+  .calculate-button {
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .price-breakdown h3 {
+    font-size: 1.3rem;
+  }
+
+  .total-price {
+    font-size: 1.25rem !important;
+  }
+
+  .calculator-form {
+    flex-direction: column;
+  }
+}

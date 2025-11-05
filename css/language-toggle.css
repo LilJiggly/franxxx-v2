@@ -1,0 +1,109 @@
+/* Language Toggle Styling - Created for multilingual functionality */
+
+.language-toggle {
+  display: flex;
+  gap: 0.5rem;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 25px;
+  padding: 4px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.lang-btn {
+  background: transparent;
+  border: none;
+  color: white;
+  font-family: "Inria Sans", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  padding: 8px 16px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  min-width: 40px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.lang-btn:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: scale(1.05);
+}
+
+.lang-btn.active {
+  background: #f15a29;
+  color: white;
+  box-shadow: 0 2px 8px rgba(241, 90, 41, 0.3);
+}
+
+.lang-btn.active:hover {
+  background: #d14a22;
+  transform: scale(1.05);
+}
+
+/* Mobile adjustments */
+@media (max-width: 600px) {
+  .language-toggle-item {
+    margin-left: 0;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .language-toggle {
+    scale: 0.9;
+    background: rgba(255, 255, 255, 1);
+  }
+
+  .lang-btn {
+    color: black;
+    background-color: gainsboro;
+    padding: 1rem 1.5rem;
+    font-size: 0.8rem;
+    min-width: 35px;
+  }
+}
+
+/* Animation for language switching */
+.fade-transition {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.fade-transition.fade-in {
+  opacity: 1;
+}
+
+/* Loading state */
+.language-toggle.loading .lang-btn {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.language-toggle.loading .lang-btn.active {
+  opacity: 1;
+}
+
+/* Accessibility improvements */
+.lang-btn:focus {
+  outline: 2px solid #f15a29;
+  outline-offset: 2px;
+}
+
+.lang-btn:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* High contrast mode support */
+@media (prefers-contrast: high) {
+  .language-toggle {
+    background: rgba(0, 0, 0, 0.9);
+    border: 2px solid white;
+  }
+
+  .lang-btn.active {
+    background: #f15a29;
+    border: 1px solid white;
+  }
+}

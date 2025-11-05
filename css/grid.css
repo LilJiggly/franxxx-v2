@@ -1,0 +1,92 @@
+:root {
+  --col-12: 1296px;
+  --col-11: 1186px;
+  --col-10: 1076px;
+  --col-9: 966px;
+  --col-8: 856px;
+  --col-7: 746px;
+  --col-6: 636px;
+  --col-5: 526px;
+  --col-4: 416px;
+  --col-3: 306px;
+  --col-2: 196px;
+  --col-1: 86px;
+}
+
+/* Grid Widths */
+.max-12 {
+  max-width: var(--col-12);
+}
+.max-11 {
+  max-width: var(--col-11);
+}
+.max-10 {
+  max-width: var(--col-10);
+}
+.max-9 {
+  max-width: var(--col-9);
+}
+.max-8 {
+  max-width: var(--col-8);
+}
+.max-7 {
+  max-width: var(--col-7);
+}
+.max-6 {
+  max-width: var(--col-6);
+}
+.max-5 {
+  max-width: var(--col-5);
+}
+.max-4 {
+  max-width: var(--col-4);
+}
+.max-3 {
+  max-width: var(--col-3);
+}
+.max-2 {
+  max-width: var(--col-2);
+}
+.max-1 {
+  max-width: var(--col-1);
+}
+
+.min-12 {
+  min-width: var(--col-12);
+}
+.min-11 {
+  min-width: var(--col-11);
+}
+.min-10 {
+  min-width: var(--col-10);
+}
+.min-9 {
+  min-width: var(--col-9);
+}
+.min-8 {
+  min-width: var(--col-8);
+}
+.min-7 {
+  min-width: var(--col-7);
+}
+.min-6 {
+  min-width: var(--col-6);
+}
+.min-5 {
+  min-width: var(--col-5);
+}
+.min-4 {
+  min-width: var(--col-4);
+}
+.min-3 {
+  min-width: var(--col-3);
+}
+.min-2 {
+  min-width: var(--col-2);
+}
+.min-1-25 {
+  min-width: var(--col-1-25);
+}
+.min-1 {
+  min-width: var(--col-1);
+}

@@ -1,0 +1,52 @@
+/*****************************************/
+/* Button stylings                       */
+/*****************************************/
+.btn {
+  padding: 1rem 1.5rem;
+
+  font-size: 1rem;
+  text-decoration: none;
+  border-radius: 0.25rem;
+
+  border: none;
+  transition: 0.3s ease;
+  z-index: 10;
+  width: auto;
+  width: fit-content;
+  white-space: nowrap;
+  color: white;
+  text-decoration: none !important;
+}
+.btn:hover {
+  cursor: pointer;
+}
+
+/*****************************************/
+.btn-primary {
+  background: black;
+  border-style: none;
+}
+
+.btn-primary:hover {
+  opacity: 0.7;
+}
+
+/*****************************************/
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid black;
+  color: black;
+}
+
+.btn-secondary:hover {
+  opacity: 0.3;
+}
+
+/*****************************************/
+
+.buttons-container {
+  display: flex;
+  gap: 1rem;
+  align-self: center;
+}
