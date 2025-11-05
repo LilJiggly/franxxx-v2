@@ -1,0 +1,178 @@
+{
+  "nl": {
+    "seo": {
+      "title": "FranxVan - Betrouwbaar Transport & Verhuisservice Amsterdam",
+      "description": "FranxVan biedt professioneel transport en verhuisservice in Amsterdam. Snel, betrouwbaar en zonder gedoe. Bel 06 30 600 300 voor een offerte.",
+      "keywords": "transport Amsterdam, verhuisservice, bestelbus, goederenvervoer, spoedtransport, verhuizing Amsterdam",
+      "ogTitle": "FranxVan - Betrouwbaar Transport & Verhuisservice Amsterdam",
+      "ogDescription": "FranxVan biedt professioneel transport en verhuisservice in Amsterdam. Snel, betrouwbaar en zonder gedoe."
+    },
+    "nav": {
+      "intro": "Intro",
+      "services": "Diensten",
+      "pricing": "Prijzen",
+      "contact": "Contact"
+    },
+    "header": {
+      "title": "FranxVan",
+      "subtitle": "Goederen vervoer in en rond Amsterdam",
+      "scrollText": "Scroll naar beneden"
+    },
+    "intro": {
+      "subtitle": "Snel, betrouwbaar en zonder gedoe!",
+      "heading": "Goederen vervoer in en rond Amsterdam",
+      "text": "Heb je een klus, een spoedbezorging of een verhuizing in Amsterdam en omstreken? Ik sta klaar met mijn bestel- en verhuisbus om je snel en vakkundig te helpen. Van kleine transporten tot grotere klussen – ik zorg ervoor dat alles soepel en zonder gedoe verloopt. Neem contact op en ontdek wat ik voor je kan betekenen!",
+      "contactBtn": "Prijzen",
+      "servicesBtn": "Diensten"
+    },
+    "services": {
+      "heading": "Diensten en service",
+      "text": "FranxVan biedt een breed scala aan transportdiensten in Amsterdam en omgeving. Van spoedtransporten tot complete verhuizingen, van pechhulp tot tijdelijke opslag – wij staan voor je klaar. Onze flexibele aanpak en persoonlijke service zorgen ervoor dat elke klus perfect wordt uitgevoerd, precies zoals jij het wilt.",
+      "transport": {
+        "title": "Vervoer",
+        "description": "Betrouwbaar transport van kleine pakketten tot grote goederen. Spoedleveringen, verhuizingen en regelmatig goederenvervoer door heel Amsterdam en omgeving."
+      },
+      "roadside": {
+        "title": "Pechhulp",
+        "description": "Autopech of problemen onderweg? Wij helpen je snel verder met professionele pechhulp en sleepservice, 24/7 bereikbaar in de regio Amsterdam."
+      },
+      "storage": {
+        "title": "Opslag",
+        "description": "Tijdelijke opslag nodig? Wij bieden veilige en droge opslagruimte voor jouw goederen, van enkele dagen tot langere periodes."
+      }
+    },
+    "contact": {
+      "heading": "Prijzen",
+      "text": "Krijg direct een indicatie van de kosten voor uw transport. Voor de andere services kunt u contact opnemen via het telefoonnummer: 06 30 600 300"
+    },
+    "form": {
+      "fromLabel": "Van (ophaaladres):",
+      "toLabel": "Naar (afleveradres):",
+      "selectCity": "Selecteer stad...",
+      "cityNotListed": "Staat uw stad niet in de lijst?",
+      "contactNote": "Neem contact op voor een persoonlijke prijsopgave. Je vind de contact gegevens onderaan de pagina!"
+    },
+    "priceCalculator": {
+      "errors": {
+        "selectLocations": "Selecteer van en naar locatie om een prijsschatting te krijgen.",
+        "sameLocation": "Van en naar locatie kunnen niet hetzelfde zijn."
+      },
+      "result": {
+        "title": "Prijsschatting",
+        "from": "Van:",
+        "to": "Naar:",
+        "service": "Service:",
+        "estimatedTime": "Geschatte tijd:",
+        "hours": "uur",
+        "priceExVat": "Prijs ex BTW:",
+        "vat": "BTW (21%):",
+        "totalIncVat": "Totaal inc BTW:",
+        "disclaimer": "Dit is een indicatieve prijsschatting. Voor een exacte offerte neem contact op.",
+        "standardTransport": "Standaard transport"
+      }
+    },
+    "footer": {
+      "contact": {
+        "title": "Contact",
+        "phone": "06 30 600 300"
+      },
+      "hours": {
+        "title": "Openingstijden",
+        "text": "FranxVan is elke dag van de week bereikbaar! Tevens werkt Frank ook in het weekend en kun je hem het best telefonisch bereiken voor de perfecte planning!"
+      },
+      "location": {
+        "title": "Vind ons",
+        "text": "FranxVan rijd - bijna - elke dag rond in Amsterdam."
+      },
+      "copyright": "Gemaakt door SamenCreatief - 2025 ©️"
+    }
+  },
+  "en": {
+    "seo": {
+      "title": "FranxVan - Reliable Transport & Moving Service Amsterdam",
+      "description": "FranxVan provides professional transport and moving services in Amsterdam. Fast, reliable and hassle-free. Call 06 30 600 300 for a quote.",
+      "keywords": "transport Amsterdam, moving service, delivery van, goods transport, urgent delivery, relocation Amsterdam",
+      "ogTitle": "FranxVan - Reliable Transport & Moving Service Amsterdam",
+      "ogDescription": "FranxVan provides professional transport and moving services in Amsterdam. Fast, reliable and hassle-free."
+    },
+    "nav": {
+      "intro": "Intro",
+      "services": "Services",
+      "pricing": "Pricing",
+      "contact": "Contact"
+    },
+    "header": {
+      "title": "FranxVan",
+      "subtitle": "Goods transport in and around Amsterdam",
+      "scrollText": "Scroll down"
+    },
+    "intro": {
+      "subtitle": "Fast, reliable and hassle-free!",
+      "heading": "Goods transport in and around Amsterdam",
+      "text": "Need help with a job, urgent delivery or moving in Amsterdam and surrounding areas? I'm ready with my delivery and moving van to help you quickly and professionally. From small transports to larger jobs – I ensure everything runs smoothly and without hassle. Get in touch and discover what I can do for you!",
+      "contactBtn": "Pricing",
+      "servicesBtn": "Services"
+    },
+    "services": {
+      "heading": "Services and support",
+      "text": "FranxVan offers a wide range of transport services in Amsterdam and surrounding areas. From urgent transports to complete relocations, from roadside assistance to temporary storage – we're here for you. Our flexible approach and personal service ensure that every job is executed perfectly, exactly as you want it.",
+      "transport": {
+        "title": "Transport",
+        "description": "Reliable transport from small packages to large goods. Express deliveries, relocations and regular goods transport throughout Amsterdam and surrounding areas."
+      },
+      "roadside": {
+        "title": "Roadside Assistance",
+        "description": "Car trouble or problems on the road? We help you quickly with professional roadside assistance and towing service, available 24/7 in the Amsterdam region."
+      },
+      "storage": {
+        "title": "Storage",
+        "description": "Need temporary storage? We offer safe and dry storage space for your goods, from a few days to longer periods."
+      }
+    },
+    "contact": {
+      "heading": "Pricing",
+      "text": "Get an instant estimate for your transport costs. For other services, please contact us at: 06 30 600 300"
+    },
+    "form": {
+      "fromLabel": "From (pickup address):",
+      "toLabel": "To (delivery address):",
+      "selectCity": "Select city...",
+      "cityNotListed": "Don't see your city in the list?",
+      "contactNote": "Contact us for a personalized quote. You can find the contact details in the footer below!"
+    },
+    "priceCalculator": {
+      "errors": {
+        "selectLocations": "Select from and to locations to get a price estimate.",
+        "sameLocation": "From and to locations cannot be the same."
+      },
+      "result": {
+        "title": "Price Estimate",
+        "from": "From:",
+        "to": "To:",
+        "service": "Service:",
+        "estimatedTime": "Estimated time:",
+        "hours": "hours",
+        "priceExVat": "Price ex VAT:",
+        "vat": "VAT (21%):",
+        "totalIncVat": "Total inc VAT:",
+        "disclaimer": "This is an indicative price estimate. Contact us for an exact quote.",
+        "standardTransport": "Standard transport"
+      }
+    },
+    "footer": {
+      "contact": {
+        "title": "Contact",
+        "phone": "06 30 600 300"
+      },
+      "hours": {
+        "title": "Opening Hours",
+        "text": "FranxVan is available every day of the week! Frank also works on weekends and you can best reach him by phone for perfect planning!"
+      },
+      "location": {
+        "title": "Find Us",
+        "text": "FranxVan drives around Amsterdam almost every day."
+      },
+      "copyright": "Made by SamenCreatief - 2025 ©️"
+    }
+  }
+}
