@@ -23,7 +23,7 @@
 
 /*****************************************/
 .btn-primary {
-  background: black;
+  background: #f15a29;
   border-style: none;
 }
 
@@ -35,12 +35,15 @@
 
 .btn-secondary {
   background: transparent;
-  border: 1px solid black;
-  color: black;
+  border: 1px solid #f15a29;
+  color: #f15a29;
 }
 
 .btn-secondary:hover {
-  opacity: 0.3;
+  background: #f15a29;
+  color: white;
+
+  /* opacity: 0.3; */
 }
 
 /*****************************************/

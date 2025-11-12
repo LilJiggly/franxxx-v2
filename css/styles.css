@@ -33,7 +33,7 @@ body {
 }
 
 section {
-  min-height: 90vh;
+  min-height: 100dvh;
 }
 
 section,
@@ -43,6 +43,7 @@ footer {
 
 footer {
   padding: 2rem;
+  min-height: 100dvh;
 }
 
 .sr-only {
@@ -76,24 +77,52 @@ footer {
   bottom: 2rem;
   animation: bounce 5s ease-out 3s infinite;
   transition: color 0.3s ease;
+  width: 32px;
 }
 
 .header-banner-image {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../images/bg-franxxx.jpg");
-  background-position: center;
-
-  background-size: cover;
   border-radius: 1em;
-  height: 100%;
-
   position: relative;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
   gap: 1rem;
+
+  height: 100%;
+  width: 100%;
+
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  animation: slideshow 16s infinite;
+}
+
+/* Slideshow animation (4 images, 4s each) */
+@keyframes slideshow {
+  0% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../images/bg-franxxx.jpeg");
+  }
+  25% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../images/bg-franxxx1.jpeg");
+  }
+  50% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../images/bg-franxxx2.jpeg");
+  }
+  75% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../images/bg-franxxx3.jpeg");
+  }
+  100% {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("../images/bg-franxxx4.jpeg");
+  }
 }
 
 /* INTRO SECTION */
@@ -106,6 +135,8 @@ section.intro {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  height: 100dvh;
 }
 
 .intro-text {
@@ -136,7 +167,8 @@ section.video video {
   align-items: center;
   flex-direction: column;
   gap: 2.5rem;
-  padding: 5rem 0rem 10rem;
+  /* padding: 5rem 0rem 10rem; */
+  padding: 10.25rem 0rem 5.25rem;
   background: var(--bg-color-light) url(../images/houses.png) no-repeat center
     bottom/contain;
 }
@@ -221,29 +253,112 @@ section.video video {
 }
 
 .card-1 {
-  background: url(../images/transport-service.jpg) center/cover;
+  background: url(../images/delivery.jpg) center/cover;
+  height: 60%;
 }
 
 .card-2 {
   background: url(../images/moving-service.jpg) center/cover;
+  height: 70%;
 }
 
 .card-3 {
-  background: url(../images/delivery-service.jpg) center/cover;
+  background: url(../images/storage.jpg) center/cover;
+  height: 80%;
 }
 
-.card-4,
-.card-5,
-.card-6,
-.card-7,
-.card-8,
+.card-4 {
+  background: url(../images/motoren.jpg) center/cover;
+  height: 90%;
+}
+
+.card-5 {
+  background: url(../images/scooters.jpg) center/cover;
+  height: 100%;
+}
+
+.card-6 {
+  background: url(../images/ebikes.jpg) center/cover;
+  height: 90%;
+}
+
+.card-7 {
+  background: url(../images/scootmobiles.jpg) center/cover;
+  height: 80%;
+}
+
+.card-8 {
+  background: url(../images/trailer.jpg) center/cover;
+  height: 70%;
+}
+
 .card-9 {
-  background: url(../images/bg.jpg) center/cover;
+  background: url(../images/logistics.jpg) center/cover;
+  height: 60%;
 }
 
 .card-p,
 .card-title {
   z-index: 10;
+}
+
+.card-p {
+  display: none;
+}
+
+/* .card-active {
+  aspect-ratio: 16/9;
+  width: 40vw;
+} */
+
+.card-active {
+  width: 40vw;
+
+  z-index: 5;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  aspect-ratio: 1/1;
+}
+
+/* Popup base */
+.popup-overlay {
+  display: none; /* Hidden by default */
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+/* Popup visible */
+.popup-overlay.active {
+  display: flex;
+}
+
+/* Popup box */
+.popup-content {
+  background: white;
+  padding: 2rem;
+  border-radius: 1em;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+
+.popup-content img {
+  width: 30%;
+}
+
+/* Close button */
+.close-btn {
+  position: absolute;
+  top: 0.8rem;
+  right: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #333;
 }
 
 /* DIENSTEN SECTION */
@@ -276,7 +391,7 @@ section.video video {
 
 footer {
   width: 100%;
-  height: auto;
+  height: 100dvh;
   color: whitesmoke;
   background-color: black;
 
@@ -285,7 +400,19 @@ footer {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 1rem;
+  gap: 2rem;
+}
+
+.footer-top {
+  height: 100%;
+  background: var(--bg-color-light);
+}
+
+.footer-bottom {
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .footer-text {
@@ -323,17 +450,9 @@ footer .container p {
 @media (max-width: 900px) {
   section.diensten .service-cards {
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
     padding: 1rem;
     width: 100%;
-  }
-  .card-1,
-  .card-2,
-  .card-3 {
-    aspect-ratio: 0/0;
-    text-align: center;
-    padding: 1rem;
-    gap: 1rem;
   }
 }
 
@@ -349,10 +468,14 @@ footer .container p {
 
   .card-1,
   .card-2,
-  .card-3 {
-    width: 100%;
-    max-width: 100%;
-    min-width: unset;
+  .card-3,
+  .card-4,
+  .card-5,
+  .card-6,
+  .card-7,
+  .card-8,
+  .card-9 {
+    padding: 1rem;
   }
 
   .diensten-text,

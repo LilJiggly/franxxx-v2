@@ -1,13 +1,36 @@
 /* Navigation Styles */
 .navbar {
-  position: absolute;
-  top: 1rem;
-  left: 1rem;
+  position: fixed;
+
+  top: 3rem;
+  /* left: 1rem; */
   right: 1rem;
+
   display: flex;
-  justify-content: space-between;
+  gap: 2rem;
+  /* justify-content: space-between; */
   align-items: center;
   z-index: 1000;
+
+  margin: 0 2rem;
+  /* background: white; */
+  padding: 0.5rem 0.5rem 0.5rem 1rem;
+  border-radius: 3rem;
+}
+
+.navbar li a {
+  color: black;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-radius: 1rem;
+  border: 1px solid rgba(135, 117, 117, 0.3);
+  overflow: hidden;
 }
 
 .nav-brand img {
@@ -26,6 +49,18 @@
   transition: color 0.3s ease;
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
+  transition: 0.1s ease;
+  /* border: 1px solid rgba(135, 117, 117, 0.3); */
+}
+
+.nav-link:hover {
+  opacity: 0.4;
+}
+
+.divider {
+  width: 1px;
+  height: 2rem;
+  background: black;
 }
 
 /* Mobile hamburger button */

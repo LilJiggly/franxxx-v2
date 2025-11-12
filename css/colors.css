@@ -5,5 +5,5 @@
   --bg-color-light: #f2f2f2;
 
   --cards-box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.3);
-  --cards-overlay: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8));
+  --cards-overlay: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3));
 }

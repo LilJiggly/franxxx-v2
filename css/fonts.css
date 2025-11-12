@@ -20,7 +20,7 @@ h4 {
 
 h5 {
   color: white;
-  font-size: clamp(1rem, 4vw, 1.5rem);
+  font-size: clamp(1rem, 4vw, 2rem);
   font-family: "Inria Sans", sans-serif;
   text-transform: uppercase;
   text-align: center;
@@ -52,10 +52,6 @@ footer a {
 
 .header a.nav-link {
   font-size: 1rem;
-}
-
-.header a:hover {
-  color: orange;
 }
 
 .card-title {
