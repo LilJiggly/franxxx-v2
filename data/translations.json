@@ -15,7 +15,7 @@
     },
     "header": {
       "title": "FranxVan",
-      "subtitle": "Transport Logistiek van A naar B ",
+      "subtitle": "Transport en vervoer van A naar B ",
       "scrollText": "Scroll naar beneden"
     },
     "intro": {
@@ -27,7 +27,7 @@
     },
     "services": {
       "heading": "Diensten en service",
-      "text": "FranxVan biedt een breed scala aan transportdiensten in Amsterdam en omgeving. Van spoedtransporten tot complete verhuizingen, van pechhulp tot tijdelijke opslag – wij staan voor je klaar. Onze flexibele aanpak en persoonlijke service zorgen ervoor dat elke klus perfect wordt uitgevoerd, precies zoals jij het wilt.",
+      "text": "FranxVan biedt een breed scala aan transportdiensten in Amsterdam en omgeving. Van spoedtransporten tot complete verhuizingen, van pechhulp tot tijdelijke opslag – wij staan voor je klaar.",
       "transport": {
         "title": "Vervoer",
         "description": "Betrouwbaar transport van kleine pakketten tot grote goederen. Spoedleveringen, verhuizingen en regelmatig goederenvervoer door heel Amsterdam en omgeving."
@@ -115,7 +115,7 @@
     },
     "services": {
       "heading": "Services and support",
-      "text": "FranxVan offers a wide range of transport services in Amsterdam and surrounding areas. From urgent transports to complete relocations, from roadside assistance to temporary storage – we're here for you. Our flexible approach and personal service ensure that every job is executed perfectly, exactly as you want it.",
+      "text": "FranxVan offers a wide range of transport services in Amsterdam and surrounding areas. From urgent transports to complete relocations, from roadside assistance to temporary storage – we're here for you.",
       "transport": {
         "title": "Transport",
         "description": "Reliable transport from small packages to large goods. Express deliveries, relocations and regular goods transport throughout Amsterdam and surrounding areas."
