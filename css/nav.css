@@ -85,6 +85,10 @@
 
 /* Mobile styles */
 @media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+
   .nav-toggle {
     display: flex;
   }

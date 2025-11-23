@@ -7,6 +7,22 @@
 @import url(nav.css);
 @import url(price-calculator-styles.css);
 
+.full-viewport {
+  height: 100vh; /* fallback */
+}
+@supports (height: 100dvh) {
+  .full-viewport {
+    height: 100dvh;
+  }
+}
+
+@supports (-webkit-touch-callout: none) {
+  .full-viewport {
+    /* for iOS Safari */
+    height: -webkit-fill-available;
+  }
+}
+
 * {
   margin: 0em;
   padding: 0;
@@ -94,18 +110,20 @@ footer {
   height: 100%;
   width: 100%;
 
-  background-position: center;
+  background-image: url(../images/bg-franxxx2.jpeg);
+
+  background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 
-  animation: slideshow 16s infinite;
+  /* animation: slideshow 16s infinite; */
 }
 
 /* Slideshow animation (4 images, 4s each) */
 @keyframes slideshow {
   0% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-      url("../images/bg-franxxx.jpeg");
+      url("../images/bg-franxxx2.jpeg");
   }
   25% {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -140,7 +158,7 @@ section.intro {
 }
 
 .intro-text {
-  gap: 2.5rem;
+  gap: 2rem;
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -208,7 +226,7 @@ section.video video {
   justify-content: space-between;
   flex-direction: column;
   flex: 1;
-  min-width: 280px;
+  min-width: 250px;
   /* max-width: 350px; */
   width: 100%;
   aspect-ratio: 3/4;
@@ -228,7 +246,7 @@ section.video video {
 .card-7:hover,
 .card-8:hover,
 .card-9:hover {
-  cursor: pointer;
+  /* cursor: pointer; */
   opacity: 0.95;
   transform: translateY(-5px);
   box-shadow: var(--cards-box-shadow);
@@ -312,12 +330,12 @@ section.video video {
 } */
 
 .card-active {
-  width: 40vw;
+  /* width: 40vw; */
 
   z-index: 5;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
-  aspect-ratio: 1/1;
+  /* aspect-ratio: 1/1; */
 }
 
 /* Popup base */
@@ -451,7 +469,7 @@ footer .container p {
   section.diensten .service-cards {
     flex-direction: column;
     /* align-items: center; */
-    padding: 1rem;
+    /* padding: 1rem; */
     width: 100%;
   }
 }
@@ -476,6 +494,7 @@ footer .container p {
   .card-8,
   .card-9 {
     padding: 1rem;
+    min-width: 60vw;
   }
 
   .diensten-text,
